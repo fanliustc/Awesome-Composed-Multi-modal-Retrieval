@@ -14,6 +14,8 @@ We will add the missing papers to this repo ASAP.
 
 # What is Composed-Multi-modal-Retrieval (CMR)?
 
+![figure1](https://github.com/fanliustc/Awesome-Composed-Multi-modal-Retrieval/blob/main/images/figure2.png)
+
 Generally, the evolution of content-based retrieval technology has witnessed the transformation from Unimodal Retrieval (UR) to Cross-modal Retrieval (CR), and then to Composed Multi-modal Retrieval (CMR). Compared with the early-stage unimodal retrieval, which was limited to querying information within the same modality, e.g., image search for images, cross-modal retrieval has achieved remarkable accuracy and widespread application in the present era. This enables the search for semantically relevant content in one modality based on the instance query from another modality, e.g., using text search images or videos, allowing users to make full use of these heterogeneous data. In recent years, composed multi-modal retrieval has emerged as a thriving content-based retrieval technology. Within this technical framework, the system aims to discover images/videos that not only bear resemblance to the given reference image/video but also allow for specific modifications based on the provided textual feedback from the user. In this sense, CMR pioneers an advanced level of interactive and conditional retrieval mechanism, leveraging deep integration of visual and linguistic information. This integration greatly enhances the flexibility and precision of user-expressed search intents, injecting new vitality into domains such as internet search and e-commerce. Consequently, CMR exhibits vast potential and far-reaching impact as the next-generation content-based retrieval engine in real-world application scenarios.
 
 
