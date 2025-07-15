@@ -32,7 +32,7 @@ For the SL-CMR pipeline, a notable characteristic is the requirement of annotate
 Although supervised training relying on these carefully labeled data often offers high performance, SL-CMR inherently faces two shortcomings: 1) annotating such triplets is both difficult and labor-intensive, and 2) the supervised approaches trained on the collected limited and specific triplets are also hard for generalization.
 
 
-### 1. Data Augmentation Approaches
+### 1. Data Construction Approaches
 
 #### 1.1 Automatic data construction
 | Publication |    Paper Title     |   Code/Project                                                 |
