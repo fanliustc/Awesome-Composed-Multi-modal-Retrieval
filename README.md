@@ -36,8 +36,6 @@ Although supervised training relying on these carefully labeled data often offer
 
 | Publication |    Paper Title     |   Code/Project                                                 |
 |:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
-
-
 | ACM TOMM 2022 | [Tell, Imagine, and Search: End-to-end Learning for Composing Text and Image to Image Retrieval](https://dl.acm.org/doi/10.1145/3478642) |   -|
 | Arxiv 2023 | [Compodiff: Versatile composed image retrieval with latent diffusion](https://Arxiv.org/pdf/2303.11916) |   [Code](https://github.com/navervision/CompoDiff)|
 | BMVC 2023 | [Zero-shot composed text-image retrieval](https://Arxiv.org/pdf/2306.07272) |   [Code](https://github.com/Code-kunkun/ZS-CIR)|
