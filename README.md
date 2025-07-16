@@ -121,7 +121,6 @@ Although supervised training relying on these carefully labeled data often offer
 | Arxiv 2024 \$\dagger\$ | [Pseudo Triplet Guided Few-shot Composed Image Retrieval](https://arxiv.org/abs/2407.06001) |  -|
 | MM 2021 | [Cross-Modal Joint Prediction and Alignment for Composed Query Image Retrieval](https://dl.acm.org/doi/10.1145/3474085.3475483) |   -|
 
-ompts benefit composed image retrieval](https://Arxiv.org/pdf/2310.05473) |   [Code](https://github.com/chunmeifeng/SPRC)|
 
 
 
@@ -143,32 +142,51 @@ ompts benefit composed image retrieval](https://Arxiv.org/pdf/2310.05473) |   [C
 | Publication |    Paper Title     |   Code/Project                                                 |
 |:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
 | CVPR 2019 | [Composing text and image for image retrieval-an empirical odyssey](https://openaccess.thecvf.com/content_CVPR_2019/papers/Vo_Composing_Text_and_Image_for_Image_Retrieval_-_an_Empirical_CVPR_2019_paper.pdf) |   -|
+| BMVC 2018 | [VSE++: Improving Visual-Semantic Embeddings with Hard Negatives](https://arxiv.org/abs/1707.05612) |   -|
+| IEEE 2020 | [Universal Weighting Metric Learning for Cross-Modal Matching](https://ieeexplore.ieee.org/document/9156549) |   -|
+| AAAI 2020 | [Ladder Loss for Coherent Visual-Semantic Embedding](https://arxiv.org/abs/1911.07528) |   -|
+| ECCV 2020 | [Adaptive Offline Quintuplet Loss for Image-Text Matching](https://arxiv.org/abs/2003.03669) |   -|
+| ACM TOMM 2023 | [Amc: Adaptive multi-expert collaborative network for text-guided image retrieval](https://dl.acm.org/doi/abs/10.1145/3584703) |   [Code](https://github.com/KevinLight831/AMC)|
+| Arxiv 2023 | [Decompose Semantic Shifts for Composed Image Retrieval](https://arxiv.org/abs/2309.09531) |   -|
+| ICCV 2021 | [Image retrieval on real-life images with pre-trained vision-and-language models](https://openaccess.thecvf.com/content/ICCV2021/papers/Liu_Image_Retrieval_on_Real-Life_Images_With_Pre-Trained_Vision-and-Language_Models_ICCV_2021_paper.pdf) |   [Code](https://github.com/Cuberick-Orion/CIRPLANT)|
+| CVPR 2020 | [Composed Query Image Retrieval Using Locally Bounded Features](https://ieeexplore.ieee.org/document/9157125) |   -|
+| MM 2021 | [Cross-Modal Joint Prediction and Alignment for Composed Query Image Retrieval](https://dl.acm.org/doi/10.1145/3474085.3475483) |   -|
 | ECCV 2020 | [Learning joint visual semantic matching embeddings for language-guided retrieval](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123670137.pdf) |   -|
-| AAAI 2021 | [Trace: Transform aggregate and compose visiolinguistic representations for image search with text feedback](https://www.researchgate.net/profile/Mausoom-Sarkar/publication/344083983_TRACE_Transform_Aggregate_and_Compose_Visiolinguistic_Representations_for_Image_Search_with_Text_Feedback/links/5fea20b2299bf14088562c70/TRACE-Transform-Aggregate-and-Compose-Visiolinguistic-Representations-for-Image-Search-with-Text-Feedback.pdf) |   -|
-| Sci. Rep. 2022 | [Composed query image retrieval based on triangle area triple loss function and combining CNN with transformer](https://www.nature.com/articles/s41598-022-25340-w) |  -|
+| CVPR 2020 | [Image search with text feedback by visiolinguistic attention learning](https://openaccess.thecvf.com/content_CVPR_2020/papers/Chen_Image_Search_With_Text_Feedback_by_Visiolinguistic_Attention_Learning_CVPR_2020_paper.pdf) |   [Code](https://github.com/yanbeic/VAL)|
+Design of Non-explicit Combiner Architecture
 | IEEE TIP 2024 | [Multimodal Composition Example Mining for Composed Query Image Retrieval](https://ieeexplore.ieee.org/document/10418785) |   -|
+| ACM MM 2023 | [Target-Guided Composed Image Retrieval](https://Arxiv.org/pdf/2309.01366) |   -|
+| ACL 2024 | [VISTA: Visualized Text Embedding For Universal Multi-Modal Retrieval](https://aclanthology.org/2024.acl-long.175/) |  [Code](https://github.com/JUNJIE99/VISTA_Evaluation_FineTuning)|
+| Sci. Rep. 2022 | [Composed query image retrieval based on triangle area triple loss function and combining CNN with transformer](https://www.nature.com/articles/s41598-022-25340-w) |  -|
+| ACM MM 2024 | [Improving Composed Image Retrieval via Contrastive Learning with Scaling Positives and Negatives](https://arxiv.org/abs/2404.11317) |  -|
+
+
 
 #### 3.2 Consistency loss constraint
 | Publication |    Paper Title     |   Code/Project                                                 |
 |:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
+| WACV 2021 | [Compositional learning of image-text query for image retrieval](https://openaccess.thecvf.com/content/WACV2021/papers/Anwaar_Compositional_Learning_of_Image-Text_Query_for_Image_Retrieval_WACV_2021_paper.pdf) |   [Code](https://github.com/ecom-research/ComposeAE)
+| WACV 2022 | [SAC: Semantic attention composition for text-conditioned image retrieval](https://openaccess.thecvf.com/content/WACV2022/papers/Jandial_SAC_Semantic_Attention_Composition_for_Text-Conditioned_Image_Retrieval_WACV_2022_paper.pdf) |   -|
+| AAAI 2021 | [Trace: Transform aggregate and compose visiolinguistic representations for image search with text feedback](https://www.researchgate.net/profile/Mausoom-Sarkar/publication/344083983_TRACE_Transform_Aggregate_and_Compose_Visiolinguistic_Representations_for_Image_Search_with_Text_Feedback/links/5fea20b2299bf14088562c70/TRACE-Transform-Aggregate-and-Compose-Visiolinguistic-Representations-for-Image-Search-with-Text-Feedback.pdf) |   -|
+| IEEE TIP 2023 | [Composed Image Retrieval via Cross Relation Network With Hierarchical Aggregation Transformer](https://ieeexplore.ieee.org/document/10205526) |   [Code](https://github.com/yan9qu/crn)|
 | SIGIR 2021 | [Comprehensive linguistic-visual composition network for image retrieval](https://haokunwen.github.io/files/acmsigir2021.pdf) |   -|
-| WACV 2021 | [Compositional learning of image-text query for image retrieval](https://openaccess.thecvf.com/content/WACV2021/papers/Anwaar_Compositional_Learning_of_Image-Text_Query_for_Image_Retrieval_WACV_2021_paper.pdf) |   [Code](https://github.com/ecom-research/ComposeAE)|
-| ACM MM 2023 | [Target-Guided Composed Image Retrieval](https://Arxiv.org/pdf/2309.01366) |   -|
-| WACV 2024 | [Bi-directional Training for Composed Image Retrieval via Text Prompt Learning](https://openaccess.thecvf.com/content/WACV2024/papers/Liu_Bi-Directional_Training_for_Composed_Image_Retrieval_via_Text_Prompt_Learning_WACV_2024_paper.pdf) |   [Code](https://github.com/Cuberick-Orion/Bi-Blip4CIR)|
-| KBS 2024 | [Collaborative group: Composed image retrieval via consensus learning from noisy annotations](https://arxiv.org/abs/2306.02092) |   -|
+| MM 2021 | [Heterogeneous Feature Fusion and Cross-modal Alignment for Composed Image Retrieval](https://dl.acm.org/doi/10.1145/3474085.3475659) |   -|
 | IEEE TMM 2022 | [Heterogeneous Feature Alignment and Fusion in Cross-Modal Augmented Space for Composed Image Retrieval](https://ieeexplore.ieee.org/document/9899752) |   -|
+| ACM TOMM 2023 | [Amc: Adaptive multi-expert collaborative network for text-guided image retrieval](https://dl.acm.org/doi/abs/10.1145/3584703) |   [Code](https://github.com/KevinLight831/AMC)|
+| Arxiv 2023 | [Decompose Semantic Shifts for Composed Image Retrieval](https://arxiv.org/abs/2309.09531) |   -|
+| ACM MM 2023 | [Target-Guided Composed Image Retrieval](https://Arxiv.org/pdf/2309.01366) |   -|
+| KBS 2024 | [Collaborative group: Composed image retrieval via consensus learning from noisy annotations](https://arxiv.org/abs/2306.02092) |   -|
 
-#### 3.3 Pre-training multi-task joint loss
+
+
+
+#### 3.3 Multi-task joint loss
 | Publication |    Paper Title     |   Code/Project                                                 |
 |:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
-| ICASSP 2021 | [Multi-Order Adversarial Representation Learning for Composed Query Image Retrieval](https://ieeexplore.ieee.org/document/9414436) |   -|
 | ECCV 2022 | [Fashionvil: Fashion-focused vision-and-language representation learning](https://Arxiv.org/pdf/2207.08150) |   [Code](https://github.com/BrandonHanx/mmf)|
 | CVPR 2023 | [FAME-ViL: Multi-Tasking Vision-Language Model for Heterogeneous Fashion Tasks](https://openaccess.thecvf.com/content/CVPR2023/papers/Han_FAME-ViL_Multi-Tasking_Vision-Language_Model_for_Heterogeneous_Fashion_Tasks_CVPR_2023_paper.pdf) |   [Code](https://github.com/BrandonHanx/FAME-ViL)|
-| ICLR 2024 | [Sentence-level prompts benefit composed image retrieval](https://Arxiv.org/pdf/2310.05473) |   [Code](https://github.com/chunmeifeng/SPRC)|
+| ICASSP 2021 | [Multi-Order Adversarial Representation Learning for Composed Query Image Retrieval](https://ieeexplore.ieee.org/document/9414436) |   -|
 | ACL 2024 | [VISTA: Visualized Text Embedding For Universal Multi-Modal Retrieval](https://aclanthology.org/2024.acl-long.175/) |  [Code](https://github.com/JUNJIE99/VISTA_Evaluation_FineTuning)|
-
-
-
 
 
 
@@ -182,7 +200,7 @@ Recently, composed multi-modal retrieval based on zero-shot learning has been pr
 
 
 ### 1. Image-side Transformation Approaches
-#### 1.1 Explicit visual Embedding (Training-free)
+#### 1.1 Explicit visual Transformation
 | Publication |    Paper Title     |   Code/Project                                                 |
 |:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
 | ICLR 2024 | [Vision-by-language for training-free compositional image retrieval](https://Arxiv.org/pdf/2310.09291) |   [Code](https://github.com/ExplainableML/Vision_by_Language)|
@@ -190,17 +208,24 @@ Recently, composed multi-modal retrieval based on zero-shot learning has been pr
 | SIGIR 2024 | [LDRE: LLM-based Divergent Reasoning and Ensemble for Zero-Shot Composed Image Retrieval](https://dl.acm.org/doi/10.1145/3626772.3657740) |   [Code](https://github.com/yzy-bupt/LDRE)|
 
 
-#### 1.2 Implicit visual Embedding 
+
+
+#### 1.2 Implicit visual Embedding Transformation
 | Publication |    Paper Title     |   Code/Project                                                 |
 |:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
 | CVPR 2023 | [Pic2word: Mapping pictures to words for zero-shot composed image retrieval](https://openaccess.thecvf.com/content/CVPR2023/papers/Saito_Pic2Word_Mapping_Pictures_to_Words_for_Zero-Shot_Composed_Image_Retrieval_CVPR_2023_paper.pdf) |   [Code](https://github.com/google-research/composed_image_retrieval)|
 | ICCV 2023 | [Zero-shot composed image retrieval with textual inversion](https://openaccess.thecvf.com/content/ICCV2023/papers/Baldrati_Zero-Shot_Composed_Image_Retrieval_with_Textual_Inversion_ICCV_2023_paper.pdf) |   [Code](https://github.com/miccunifi/SEARLE)|
-| Arxiv 2023 | [Pretrain like you inference: Masked tuning improves zero-shot composed image retrieval](https://Arxiv.org/pdf/2311.07622) |   -|
-| ICLR 2024 | [Image2Sentence based Asymmetrical Zero-shot Composed Image Retrieval](https://Arxiv.org/pdf/2403.01431) |   -|
-| AAAI 2024 | [Context-I2W: Mapping Images to Context-dependent Words for Accurate Zero-Shot Composed Image Retrieval](https://ojs.aaai.org/index.php/AAAI/article/view/28324) |   -|
-| Arxiv 2024 | [Spherical Linear Interpolation and Text-Anchoring for Zero-shot Composed Image Retrieval](https://Arxiv.org/abs/2405.00571) |   -|
-| SIGIR 2024 | [Fine-grained Textual Inversion Network for Zero-Shot Composed Image Retrieval](https://dl.acm.org/doi/10.1145/3626772.3657831) |   [Code](https://github.com/ZiChao111/FTI4CIR)|
 | Arxiv 2024 | [iSEARLE: Improving Textual Inversion for Zero-Shot Composed Image Retrieval](https://arxiv.org/abs/2405.02951) |   [Code](https://github.com/miccunifi/SEARLE)|
+| AAAI 2024 | [Context-I2W: Mapping Images to Context-dependent Words for Accurate Zero-Shot Composed Image Retrieval](https://ojs.aaai.org/index.php/AAAI/article/view/28324) |   -|
+| SIGIR 2024 | [Fine-grained Textual Inversion Network for Zero-Shot Composed Image Retrieval](https://dl.acm.org/doi/10.1145/3626772.3657831) |   [Code](https://github.com/ZiChao111/FTI4CIR)|
+| ICLR 2024 | [Image2Sentence based Asymmetrical Zero-shot Composed Image Retrieval](https://Arxiv.org/pdf/2403.01431) |   -|
+| CVPR 2024 | [Knowledge-enhanced dual-stream zero-shot composed image retrieval](https://openaccess.thecvf.com/content/CVPR2024/papers/Suo_Knowledge-Enhanced_Dual-stream_Zero-shot_Composed_Image_Retrieval_CVPR_2024_paper.pdf) |   [Code](https://github.com/suoych/KEDs.)|
+| CVPR 2025 | [Missing Target-Relevant Information Prediction with World Model for Accurate Zero-Shot Composed Image Retrieval](https://arxiv.org/abs/2503.17109#:~:text=In%20this%20paper%2C%20we%20propose%20a%20novel%20prediction-based,the%20latent%20space%20before%20mapping%20for%20accurate%20ZS-CIR.) |   -|
+| CVPR 2025 | [From Mapping to Composing: A Two-Stage Framework for Zero-shot Composed Image Retrieval](https://arxiv.org/abs/2504.17990) |   -|
+| CVPR 2025 | [Data-Efficient Generalization for Zero-shot Composed Image Retrieval](https://arxiv.org/abs/2503.05204) |   -|
+| CVPR 2024 | [Denoise-I2W: Mapping Images to Denoising Words for Accurate Zero-Shot Composed Image Retrieval](https://arxiv.org/abs/2410.17393#:~:text=In%20this%20paper%2C%20we%20propose%20a%20novel%20denoising,that%2C%20without%20intention-irrelevant%20visual%20information%2C%20enhance%20accurate%20ZS-CIR.) |   -|
+
+
 
 
 
@@ -209,9 +234,12 @@ Recently, composed multi-modal retrieval based on zero-shot learning has been pr
 | Publication |    Paper Title     |   Code/Project                                                 |
 |:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
 | CVPR 2024 | [Language-only Efficient Training of Zero-shot Composed Image Retrieval](https://Arxiv.org/abs/2312.01998) |   [Code](https://github.com/navervision/lincir)|
+| Arxiv 2024 | [Reducing Task Discrepancy of Text Encoders for Zero-Shot Composed Image Retrieval](https://arxiv.org/abs/2406.09188) |   -|
 | CVPR 2024 | [Composed Video Retrieval via Enriched Context and Discriminative Embeddings](https://arxiv.org/abs/2403.16997) |   [Code](https://github.com/OmkarThawakar/composed-video-retrieval)|
 | ICML 2024 | [Improving Context Understanding in Multimodal Large Language Models via Multimodal Composition Learning](https://proceedings.mlr.press/v235/li24s.html) |   [Code](https://github.com/dhg-wei/MCL)|
-| Arxiv 2024 | [Reducing Task Discrepancy of Text Encoders for Zero-Shot Composed Image Retrieval](https://arxiv.org/abs/2406.09188) |   -|
+| CVPR 2024 | [MoTaDual: Modality-Task Dual Alignment for Enhanced Zero-shot Composed Image Retrieval](https://arxiv.org/abs/2410.23736) |   -|
+
+
 
 
  ### 3. External Knowledge Assistance Approaches
@@ -237,6 +265,31 @@ Although zero-shot combined multimodal retrieval does not rely on labeled data, 
 | ICML 2024 | [Improving Context Understanding in Multimodal Large Language Models via Multimodal Composition Learning](https://proceedings.mlr.press/v235/li24s.html) |   [Code](https://github.com/dhg-wei/MCL)|
 | Arxiv 2024 | [Pseudo Triplet Guided Few-shot Composed Image Retrieval](https://arxiv.org/abs/2407.06001) |  -|
 | ACL 2024 | [VISTA: Visualized Text Embedding For Universal Multi-Modal Retrieval](https://aclanthology.org/2024.acl-long.175/) |  [Code](https://github.com/JUNJIE99/VISTA_Evaluation_FineTuning)|
+| CVPR 2024 | [Language-only Efficient Training of Zero-shot Composed Image Retrieval](https://Arxiv.org/abs/2312.01998) |   [Code](https://github.com/navervision/lincir)|
+| CVPR 2024 | [Composed Video Retrieval via Enriched Context and Discriminative Embeddings](https://arxiv.org/abs/2403.16997) |   [Code](https://github.com/OmkarThawakar/composed-video-retrieval)|
+| ICML 2024 | [Improving Context Understanding in Multimodal Large Language Models via Multimodal Composition Learning](https://proceedings.mlr.press/v235/li24s.html) |   [Code](https://github.com/dhg-wei/MCL)|
+| Arxiv 2024 | [Reducing Task Discrepancy of Text Encoders for Zero-Shot Composed Image Retrieval](https://arxiv.org/abs/2406.09188) |   -|
+| Arxiv 2023 | [Pretrain like you inference: Masked tuning improves zero-shot composed image retrieval](https://Arxiv.org/pdf/2311.07622) |   -|
+| ICLR 2024 | [Image2Sentence based Asymmetrical Zero-shot Composed Image Retrieval](https://Arxiv.org/pdf/2403.01431) |   -|
+| AAAI 2024 | [Context-I2W: Mapping Images to Context-dependent Words for Accurate Zero-Shot Composed Image Retrieval](https://ojs.aaai.org/index.php/AAAI/article/view/28324) |   -|
+| Arxiv 2024 | [Spherical Linear Interpolation and Text-Anchoring for Zero-shot Composed Image Retrieval](https://Arxiv.org/abs/2405.00571) |   -|
+| SIGIR 2024 | [Fine-grained Textual Inversion Network for Zero-Shot Composed Image Retrieval](https://dl.acm.org/doi/10.1145/3626772.3657831) |   [Code](https://github.com/ZiChao111/FTI4CIR)|
+| Arxiv 2024 | [iSEARLE: Improving Textual Inversion for Zero-Shot Composed Image Retrieval](https://arxiv.org/abs/2405.02951) |   [Code](https://github.com/miccunifi/SEARLE)|
+| ICASSP 2021 | [Multi-Order Adversarial Representation Learning for Composed Query Image Retrieval](https://ieeexplore.ieee.org/document/9414436) |   -|
+| ECCV 2022 | [Fashionvil: Fashion-focused vision-and-language representation learning](https://Arxiv.org/pdf/2207.08150) |   [Code](https://github.com/BrandonHanx/mmf)|
+| CVPR 2023 | [FAME-ViL: Multi-Tasking Vision-Language Model for Heterogeneous Fashion Tasks](https://openaccess.thecvf.com/content/CVPR2023/papers/Han_FAME-ViL_Multi-Tasking_Vision-Language_Model_for_Heterogeneous_Fashion_Tasks_CVPR_2023_paper.pdf) |   [Code](https://github.com/BrandonHanx/FAME-ViL)|
+| ICLR 2024 | [Sentence-level prompts benefit composed image retrieval](https://Arxiv.org/pdf/2310.05473) |   [Code](https://github.com/chunmeifeng/SPRC)|
+| ACL 2024 | [VISTA: Visualized Text Embedding For Universal Multi-Modal Retrieval](https://aclanthology.org/2024.acl-long.175/) |  [Code](https://github.com/JUNJIE99/VISTA_Evaluation_FineTuning)|
+| SIGIR 2021 | [Comprehensive linguistic-visual composition network for image retrieval](https://haokunwen.github.io/files/acmsigir2021.pdf) |   -|
+| WACV 2021 | [Compositional learning of image-text query for image retrieval](https://openaccess.thecvf.com/content/WACV2021/papers/Anwaar_Compositional_Learning_of_Image-Text_Query_for_Image_Retrieval_WACV_2021_paper.pdf) |   [Code](https://github.com/ecom-research/ComposeAE)|
+| ACM MM 2023 | [Target-Guided Composed Image Retrieval](https://Arxiv.org/pdf/2309.01366) |   -|
+| WACV 2024 | [Bi-directional Training for Composed Image Retrieval via Text Prompt Learning](https://openaccess.thecvf.com/content/WACV2024/papers/Liu_Bi-Directional_Training_for_Composed_Image_Retrieval_via_Text_Prompt_Learning_WACV_2024_paper.pdf) |   [Code](https://github.com/Cuberick-Orion/Bi-Blip4CIR)|
+| KBS 2024 | [Collaborative group: Composed image retrieval via consensus learning from noisy annotations](https://arxiv.org/abs/2306.02092) |   -|
+| IEEE TMM 2022 | [Heterogeneous Feature Alignment and Fusion in Cross-Modal Augmented Space for Composed Image Retrieval](https://ieeexplore.ieee.org/document/9899752) |   -|
+| ECCV 2020 | [Learning joint visual semantic matching embeddings for language-guided retrieval](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123670137.pdf) |   -|
+| AAAI 2021 | [Trace: Transform aggregate and compose visiolinguistic representations for image search with text feedback](https://www.researchgate.net/profile/Mausoom-Sarkar/publication/344083983_TRACE_Transform_Aggregate_and_Compose_Visiolinguistic_Representations_for_Image_Search_with_Text_Feedback/links/5fea20b2299bf14088562c70/TRACE-Transform-Aggregate-and-Compose-Visiolinguistic-Representations-for-Image-Search-with-Text-Feedback.pdf) |   -|
+| Sci. Rep. 2022 | [Composed query image retrieval based on triangle area triple loss function and combining CNN with transformer](https://www.nature.com/articles/s41598-022-25340-w) |  -|
+| IEEE TIP 2024 | [Multimodal Composition Example Mining for Composed Query Image Retrieval](https://ieeexplore.ieee.org/document/10418785) |   -|
 
 
 
