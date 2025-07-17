@@ -361,8 +361,23 @@ Research in CMR has vast application potential.
 It can be broadly categorized based on application scenarios and image domain differences, including domains as fashion and e-commerce images, natural images, videos, remote sensing images, person images, sketch images, and interactive conversation. The specific application can be personalized product shopping, media search, event discovery, environmental monitoring, law enforcement, customer service bots, and so on. In summary, CMR represents a paradigm shift in search systems by integrating visual and textual modalities. These systems enable fine-grained, context-aware, and user-centric searches across diverse domains, offering significant improvements in both retrieval accuracy and user satisfaction.
 
 ![figure2](https://github.com/fanliustc/Awesome-Composed-Multi-modal-Retrieval/blob/main/images/figure1.png)
- ### (1,2) Composed Fashion Image Retrieval and Composed Natural Image Retrieval
-Since most of the existing methods in CMR field involve these two applications, they are not listed here. Please refer to Tables 1-7 in the survey for details.
+
+ ### (1) Composed Fashion Image Retrieval and Composed Natural Image Retrieval
+| Dataset | Year |    Paper Title     |   Code/Project                                                 |
+|:----:|:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
+| FashionIQ | 2021 | [Fashion iq: A new dataset towards retrieving images by natural language feedback](https://arxiv.org/abs/1905.12794) |   [Dataset](https://github.com/XiaoxiaoGuo/fashion-iq)|
+| Fashion200k | 2017 | [Automatic attribute discovery and characterization from noisy web data](https://link.springer.com/chapter/10.1007/978-3-642-15549-9_484) |   [Dataset](https://github.com/xthan/fashion-200k)|
+| Shoes | 2018 | [Dialog-based Interactive Image Retrieval](https://arxiv.org/abs/1805.00145) |   [Dataset](https://github.com/XiaoxiaoGuo/fashion-retrieval)|
+
+
+
+ ### (2) Composed Natural Image Retrieval
+| Dataset | Year |    Paper Title     |   Code/Project                                                 |
+|:----:|:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
+| CSS | 2018 | [Composing Text and Image for Image Retrieval - An Empirical Odyssey](https://openaccess.thecvf.com/content_CVPR_2019/papers/Vo_Composing_Text_and_Image_for_Image_Retrieval_-_an_Empirical_CVPR_2019_paper.pdf) |   [Dataset](https://github.com/google/tirg)|
+| CIRR | 2021 | [Image retrieval on real-life images with pre-trained vision-and-language models](https://openaccess.thecvf.com/content/ICCV2021/papers/Liu_Image_Retrieval_on_Real-Life_Images_With_Pre-Trained_Vision-and-Language_Models_ICCV_2021_paper.pdf) |   [Dataset](https://github.com/Cuberick-Orion/CIRPLANT)|
+| CIRCO | 2023 | [Zero-shot composed image retrieval with textual inversion](https://arxiv.org/abs/2303.15247) |   [Dataset](https://github.com/miccunifi/SEARLE)|
+| IEEE | 2015 | [Discovering states and transformations in image collections]([https://arxiv.org/abs/2303.15247](https://ieeexplore.ieee.org/document/7298744)) |   [Dataset]()|
 
 
  ### (3) Composed Video Retrieval
