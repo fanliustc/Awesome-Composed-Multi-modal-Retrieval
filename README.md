@@ -377,7 +377,7 @@ It can be broadly categorized based on application scenarios and image domain di
 | CSS | 2018 | [Composing Text and Image for Image Retrieval - An Empirical Odyssey](https://openaccess.thecvf.com/content_CVPR_2019/papers/Vo_Composing_Text_and_Image_for_Image_Retrieval_-_an_Empirical_CVPR_2019_paper.pdf) |   [Dataset](https://github.com/google/tirg)|
 | CIRR | 2021 | [Image retrieval on real-life images with pre-trained vision-and-language models](https://openaccess.thecvf.com/content/ICCV2021/papers/Liu_Image_Retrieval_on_Real-Life_Images_With_Pre-Trained_Vision-and-Language_Models_ICCV_2021_paper.pdf) |   [Dataset](https://github.com/Cuberick-Orion/CIRPLANT)|
 | CIRCO | 2023 | [Zero-shot composed image retrieval with textual inversion](https://arxiv.org/abs/2303.15247) |   [Dataset](https://github.com/miccunifi/SEARLE)|
-| IEEE | 2015 | [Discovering states and transformations in image collections]([https://arxiv.org/abs/2303.15247](https://ieeexplore.ieee.org/document/7298744)) |   [Dataset]()|
+| IEEE | 2015 | [Discovering states and transformations in image collections](https://ieeexplore.ieee.org/document/7298744) |   -|
 
 
  ### (3) Composed Video Retrieval
