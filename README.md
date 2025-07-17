@@ -253,10 +253,28 @@ Recently, composed multi-modal retrieval based on zero-shot learning has been pr
 Although zero-shot combined multimodal retrieval does not rely on labeled data, its performance is often lower than supervised training, which brings obstacles to the application of the model. To alleviate this problem, some works have proposed a semi-supervised combined multimodal learning paradigm based on automatically generated triple data. In this setting, relying on the relatively easy-to-obtain image-text data, existing SSL-CMR work mainly generates triplet data from two aspects: (1) generating images, such as editing the input reference image according to the conditional text to create the target image; (2) generating text, such as describing the difference caption between the two input images. By generating these triplet data, the model can not only capture the combination of vision and language more accurately during learning, but also avoid the limitations of cumbersome annotation. Although the generated data may be noisy, it also combines the advantages of supervision and zero-shot learning, which is a promising direction.
 
 
-
+### 1. Automatic Data Construction
+#### 1.1 Generating Language Content
 | Publication |    Paper Title     |   Code/Project                                                 |
 |:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
-| ACM TOMM 2022 | [Tell, Imagine, and Search: End-to-end Learning for Composing Text and Image to Image Retrieval](https://dl.acm.org/doi/10.1145/3478642) |   -|
+| BMVC 2023 | [Zero-shot composed text-image retrieval](https://Arxiv.org/pdf/2306.07272) |   [Code](https://github.com/Code-kunkun/ZS-CIR)|
+| Arxiv 2024 | [Pseudo Triplet Guided Few-shot Composed Image Retrieval](https://arxiv.org/abs/2407.06001) |  -|
+| IEEE TIP 2024 | [Multimodal Composition Example Mining for Composed Query Image Retrieval](https://ieeexplore.ieee.org/document/10418785) |   -|
+| WACV 2024 | [Bi-directional Training for Composed Image Retrieval via Text Prompt Learning](https://openaccess.thecvf.com/content/WACV2024/papers/Liu_Bi-Directional_Training_for_Composed_Image_Retrieval_via_Text_Prompt_Learning_WACV_2024_paper.pdf) |   [Code](https://github.com/Cuberick-Orion/Bi-Blip4CIR)|
+| Arxiv 2024 | [HyCIR: Boosting Zero-Shot Composed Image Retrieval with Synthetic Labels](https://arxiv.org/abs/2407.05795) |   -|
+| CVPR 2024 | [Visual Delta Generator with Large Multi-modal Models for Semi-supervised Composed Image Retrieval](https://openaccess.thecvf.com/content/CVPR2024/papers/Jang_Visual_Delta_Generator_with_Large_Multi-modal_Models_for_Semi-supervised_Composed_CVPR_2024_paper.pdf) |   -|
+| AAAI 2024 | [Data Roaming and Quality Assessment for Composed Image Retrieval](https://ojs.aaai.org/index.php/AAAI/article/view/28081) |   [Code](https://github.com/levymsn/LaSCo)|
+| CVPR 2025 | [CoLLM: A Large Language Model for Composed Image Retrieval](https://arxiv.org/abs/2503.19910) |   -|
+| CVPR 2025 | [Scaling Prompt Instructed Zero Shot Composed Image Retrieval with Image-Only Data](https://arxiv.org/abs/2504.00812) |   -|
+| CVPR 2025 | [SCOT: Self-Supervised Contrastive Pretraining For Zero-Shot Compositional Retrieval](https://arxiv.org/abs/2501.08347#:~:text=In%20this%20work%2C%20we%20propose%20SCOT%20%28Self-supervised%20COmpositional,models%20to%20contrastively%20train%20an%20embedding%20composition%20network.) |   -|
+| CVPR 2025 | [ConText-CIR: Learning from Concepts in Text for Composed Image Retrieval](https://arxiv.org/abs/2505.20764) |   -|
+| CVPR 2025 | [Scale Up Composed Image Retrieval Learning via Modification Text Generation](https://arxiv.org/abs/2504.05316) |   -|
+| CVPR 2025 | [good4cir: Generating Detailed Synthetic Captions for Composed Image Retrieval](https://arxiv.org/abs/2503.17871#:~:text=We%20introduce%20good4cir%2C%20a%20structured%20pipeline%20leveraging,vision-language%20models%20to%20generate%20high-quality%20synthetic%20annotations.) |   -|
+
+
+#### 1.2 Generating Language and Visual Content
+| Publication |    Paper Title     |   Code/Project                                                 |
+|:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
 | Arxiv 2023 | [Compodiff: Versatile composed image retrieval with latent diffusion](https://Arxiv.org/pdf/2303.11916) |   [Code](https://github.com/navervision/CompoDiff)|
 | BMVC 2023 | [Zero-shot composed text-image retrieval](https://Arxiv.org/pdf/2306.07272) |   [Code](https://github.com/Code-kunkun/ZS-CIR)|
 | AAAI 2024 | [Data Roaming and Quality Assessment for Composed Image Retrieval](https://ojs.aaai.org/index.php/AAAI/article/view/28081) |   [Code](https://github.com/levymsn/LaSCo)|
