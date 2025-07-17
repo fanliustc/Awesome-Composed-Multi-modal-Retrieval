@@ -340,6 +340,11 @@ It can be broadly categorized based on application scenarios and image domain di
 ![figure2](https://github.com/fanliustc/Awesome-Composed-Multi-modal-Retrieval/blob/main/images/figure1.png)
 
  ### (1) Composed Fashion Image Retrieval and Composed Natural Image Retrieval
+
+Traditional fashion image retrieval primarily relies on simple image search or keyword-based search. However, these methods often fail to meet user needs when searching for specific fashion items with complex attributes such as color, style, and material. The main goal of Composed Fashion Image Retrieval (CFIR) is to achieve more accurate and personalized fashion searches by combining both images and texts. 
+CFIR has broad applications in e-commerce. By combining image-based search with textual refinement, it improves search efficiency and helps users locate products that better match their preferences. For example, users can input a reference image (e.g., a photo of a clothing item) along with a textual modification (e.g., "long-sleeve version").
+This leads to higher customer satisfaction and greater user engagement. For retailers and brands, CFIR supports personalized product recommendations, fashion trend analysis, and more effective inventory management.
+
 | Dataset | Year |    Paper Title     |   Code/Project                                                 |
 |:----:|:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
 | FashionIQ | 2021 | [Fashion iq: A new dataset towards retrieving images by natural language feedback](https://arxiv.org/abs/1905.12794) |   [Dataset](https://github.com/XiaoxiaoGuo/fashion-iq)|
