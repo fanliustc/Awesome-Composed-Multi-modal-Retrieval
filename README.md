@@ -310,29 +310,6 @@ Although zero-shot combined multimodal retrieval does not rely on labeled data, 
 | CVPR 2025 | [Composed Image Retrieval with Text Feedback via Multi-grained Uncertainty Regularization](https://openaccess.thecvf.com/content/CVPR2025/html/Li_Learning_with_Noisy_Triplet_Correspondence_for_Composed_Image_Retrieval_CVPR_2025_paper.html) |   -|
 
 
-## Datasets
-General domain (manual annotation)
-| Dataset | Year |    Paper Title     |   Code/Project                                                 |
-|:----:|:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
-| CIRR | 2021 | [Image retrieval on real-life images with pre-trained vision-and-language models](https://openaccess.thecvf.com/content/ICCV2021/papers/Liu_Image_Retrieval_on_Real-Life_Images_With_Pre-Trained_Vision-and-Language_Models_ICCV_2021_paper.pdf) |   [Dataset](https://github.com/Cuberick-Orion/CIRPLANT)|
-| CIRCO | 2023 | [Zero-shot composed image retrieval with textual inversion](https://arxiv.org/abs/2303.15247) |   [Dataset](https://github.com/miccunifi/SEARLE)|
-
-General domain (machine generation)
-| Dataset | Year |    Paper Title     |   Code/Project                                                 |
-|:----:|:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
-| LaSCo | 2024 | [Data Roaming and Quality Assessment for Composed Image Retrieval](https://arxiv.org/abs/2303.09429) |   [Dataset](https://github.com/levymsn/LaSCo)|
-| Laion-CIR-Combined | 2024 | [Zero-shot Composed Text-Image Retrieval](https://Arxiv.org/pdf/2306.07272) |   [Dataset](https://github.com/Code-kunkun/ZS-CIR)|
-| SynthTriplets18M | 2024 | [CompoDiff: Versatile Composed Image Retrieval With Latent Diffusion](https://Arxiv.org/pdf/2303.11916) |   [Dataset](https://github.com/navervision/CompoDiff)|
-
-Specific domain (fashion, shoes, 3D scenes, etc.)
-| Dataset | Year |    Paper Title     |   Code/Project                                                 |
-|:----:|:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
-| FashionIQ | 2021 | [Fashion iq: A new dataset towards retrieving images by natural language feedback](https://arxiv.org/abs/1905.12794) |   [Dataset](https://github.com/XiaoxiaoGuo/fashion-iq)|
-| CFQ | 2022 | [Training and challenging models for text-guided fashion image retrieval](https://arxiv.org/abs/2204.11004) |   [Dataset](https://github.com/yahoo/maaf)|
-| Shoes | 2018 | [Dialog-based Interactive Image Retrieval](https://arxiv.org/abs/1805.00145) |   [Dataset](https://github.com/XiaoxiaoGuo/fashion-retrieval)|
-| CSS | 2018 | [Composing Text and Image for Image Retrieval - An Empirical Odyssey](https://openaccess.thecvf.com/content_CVPR_2019/papers/Vo_Composing_Text_and_Image_for_Image_Retrieval_-_an_Empirical_CVPR_2019_paper.pdf) |   [Dataset](https://github.com/google/tirg)|
-| Fashion200k | 2017 | [Automatic attribute discovery and characterization from noisy web data](https://link.springer.com/chapter/10.1007/978-3-642-15549-9_484) |   [Dataset](https://github.com/xthan/fashion-200k)|
-
 
 
 
@@ -377,66 +354,62 @@ It can be broadly categorized based on application scenarios and image domain di
 | CSS | 2018 | [Composing Text and Image for Image Retrieval - An Empirical Odyssey](https://openaccess.thecvf.com/content_CVPR_2019/papers/Vo_Composing_Text_and_Image_for_Image_Retrieval_-_an_Empirical_CVPR_2019_paper.pdf) |   [Dataset](https://github.com/google/tirg)|
 | CIRR | 2021 | [Image retrieval on real-life images with pre-trained vision-and-language models](https://openaccess.thecvf.com/content/ICCV2021/papers/Liu_Image_Retrieval_on_Real-Life_Images_With_Pre-Trained_Vision-and-Language_Models_ICCV_2021_paper.pdf) |   [Dataset](https://github.com/Cuberick-Orion/CIRPLANT)|
 | CIRCO | 2023 | [Zero-shot composed image retrieval with textual inversion](https://arxiv.org/abs/2303.15247) |   [Dataset](https://github.com/miccunifi/SEARLE)|
-| IEEE | 2015 | [Discovering states and transformations in image collections](https://ieeexplore.ieee.org/document/7298744) |   -|
+| MIT-States | 2015 | [Discovering states and transformations in image collections](https://ieeexplore.ieee.org/document/7298744) |   -|
+| Birds-to-Words | 2019 | [Neural Naturalist: Generating Fine-Grained Image Comparisons](https://arxiv.org/abs/1909.04101) |   -|
+| LaSCo | 2024 | [Data Roaming and Quality Assessment for Composed Image Retrieval](https://arxiv.org/abs/2303.09429) |   [Dataset](https://github.com/levymsn/LaSCo)|
+| Laion-CIR-Combined | 2024 | [Zero-shot Composed Text-Image Retrieval](https://Arxiv.org/pdf/2306.07272) |   [Dataset](https://github.com/Code-kunkun/ZS-CIR)|
+| SynthTriplets18M | 2024 | [CompoDiff: Versatile Composed Image Retrieval With Latent Diffusion](https://Arxiv.org/pdf/2303.11916) |   [Dataset](https://github.com/navervision/CompoDiff)|
+| Good4cir | 2025 | [good4cir: Generating Detailed Synthetic Captions for Composed Image Retrieval](https://arxiv.org/html/2503.17871) |   -|
 
 
  ### (3) Composed Video Retrieval
-| Publication |  Application |   Paper Title     |   Code/Project                                                 |
+
+ 
+| Dataset | Year |    Paper Title     |   Code/Project                                                 |
 |:----:|:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
-| CVPR 2024 | Composed Video Retrieval  | [Composed Video Retrieval via Enriched Context and Discriminative Embeddings](https://Arxiv.org/pdf/2403.16997) |   [Code](https://github.com/OmkarThawakar/composed-video-retrieval)|
-| AAAI 2024 | Composed Video Retrieval  | [CoVR: Learning Composed Video Retrieval from Web Video Captions](https://arxiv.org/abs/2308.14746) |   [Code](https://imagine.enpc.fr/~ventural/covr/)|
-| TPAMI 2024 |Composed Video Retrieval  | [CoVR-2: Automatic Data Construction for Composed Video Retrieval](https://arxiv.org/abs/2308.14746) |   [Code](https://imagine.enpc.fr/~ventural/covr/)|
-| ECCV 2024 |Composed Video Retrieval  | [EgoCVR: An Egocentric Benchmark for Fine-Grained Composed Video Retrieval](https://arxiv.org/abs/2407.16658) |   [Code](https://github.com/ExplainableML/EgoCVR/)|
-| Arxiv 2024 |Composed Video Retrieval  | [Localizing Events in Videos with Multimodal Queries](https://arxiv.org/abs/2406.10079) |   [Code]()|
+| WebVid-CoVR | 2024 | [CoVR: Learning Composed Video Retrieval from Web Video Captions](https://arxiv.org/abs/2308.14746) |   [Dataset](https://imagine.enpc.fr/~ventural/covr/)|
+| CIRR | 2021 | [Image retrieval on real-life images with pre-trained vision-and-language models](https://openaccess.thecvf.com/content/ICCV2021/papers/Liu_Image_Retrieval_on_Real-Life_Images_With_Pre-Trained_Vision-and-Language_Models_ICCV_2021_paper.pdf) |   [Dataset](https://github.com/Cuberick-Orion/CIRPLANT)|
+| FashionIQ | 2021 | [Fashion iq: A new dataset towards retrieving images by natural language feedback](https://arxiv.org/abs/1905.12794) |   [Dataset](https://github.com/XiaoxiaoGuo/fashion-iq)|
+| EgoCVR | 2024 | [EgoCVR: An Egocentric Benchmark for Fine-Grained Composed Video Retrieva](https://arxiv.org/abs/2407.16658) |   [Dataset](https://github.com/ExplainableML/EgoCVR/)|
+| ICQ | 2024 | [Localizing Events in Videos with Multimodal Queries](https://arxiv.org/abs/2406.10079) |   -|
+
+
 
 
  ### (4) Composed Remote Sensing Image Retrieval
-| Publication |  Application |   Paper Title     |   Code/Project                                                 |
+| Dataset | Year |    Paper Title     |   Code/Project                                                 |
 |:----:|:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
-| IGARSS 2024 | Composed Remote Sensing Image Retrieval  | [Composed Image Retrieval for Remote Sensing](https://arxiv.org/abs/2405.15587) |   [Code](https://github.com/billpsomas/rscir)|
-| TGRS 2024 | Composed Remote Sensing Image Retrieval  | [Scene Graph-Aware Hierarchical Fusion Network for Remote Sensing Image Retrieval With Text Feedback](https://ieeexplore.ieee.org/document/10537211/) |   [Code]()|
+| PATTERNCOM | 2024 | [Composed Image Retrieval for Remote Sensing](https://arxiv.org/abs/2405.15587) |   [Dataset](https://github.com/billpsomas/rscir)|
+| Airplane, Tennis, and WHIRT | 2024 | [Scene Graph-Aware Hierarchical Fusion Network for Remote Sensing Image Retrieval With Text Feedback](https://ieeexplore.ieee.org/document/10537211/) |   -|
+
+
 
 
 
  ### (5) Composed Person Retrieval
-| Publication |  Application |   Paper Title     |   Code/Project                                                 |
+| Dataset | Year |    Paper Title     |   Code/Project                                                 |
 |:----:|:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
-| Arxiv 2024 | Composed Persion-RID | [Automatic Synthetic Data and Fine-grained Adaptive Feature Alignment for Composed Person Retrieval](https://arxiv.org/abs/2311.16515) |   [Code](https://github.com/Delong-liu-bupt/Composed_Person_Retrieval)|
+| SynCPR, ITCPR | 2024 | [Automatic Synthetic Data and Fine-grained Adaptive Feature Alignment for Composed Person Retrieva](https://arxiv.org/abs/2311.16515) |   [Dataset](https://github.com/Delong-liu-bupt/Composed_Person_Retrieval)|
 
 
 
  ### (6) Composed Sketch-based Image Retrieval
-| Publication |  Application |   Paper Title     |   Code/Project                                                 |
+| Dataset | Year |    Paper Title     |   Code/Project                                                 |
 |:----:|:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
-| CVPR 2024 | Sketch-Text Retrieval | [You’ll Never Walk Alone: A Sketch and Text Duet for Fine-Grained Image Retrieval](https://Arxiv.org/abs/2211.13854) |   [Code](https://github.com/eric-ai-lab/ComCLIP)|
+| ShoeV2, ChairV2 | 2016 | [Sketch Me That Shoe](https://ieeexplore.ieee.org/document/7780462) |   -|
+| Sketchy | 2016 | [The sketchy database: learning to retrieve badly drawn bunnies](https://dl.acm.org/doi/10.1145/2897824.2925954) |   -|
+| FS-COCO | 2022 | [FS-COCO: Towards Understanding of Freehand Sketches of Common Objects in Context](https://arxiv.org/abs/2203.02113) |   -|
+| SketchyCOCO | 2020 | [SketchyCOCO: Image Generation From Freehand Scene Sketches](https://ieeexplore.ieee.org/document/9157030) |   -|
+| ImageNet-R(endition)  | 2021 | [The Many Faces of Robustness: A Critical Analysis of Out-of-Distribution Generalization](https://arxiv.org/abs/2006.16241) |   -|
+
 
 
  ### (7) Interactive/Conversational Retrieval
-| Publication |    Paper Title     |   Code/Project                                                 |
-|:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
-| NeurIPS 2018 | [Dialog-based interactive image retrieval](https://arxiv.org/abs/1805.00145) |  -|
-| NeurIPS 2019 | [Drill-down: Interactive Retrieval of Complex Scenes using Natural Language Queries](https://dl.acm.org/doi/10.5555/3454287.3454525) |  -|
-| MM 2021 | [Deconfounded and Explainable Interactive Vision-Language Retrieval of Complex Scenes](https://dl.acm.org/doi/10.1145/3474085.3475366) |  -|
-| SIGIR 2021 | [Conversational Fashion Image Retrieval via Multiturn Natural Language Feedback](https://arxiv.org/abs/2106.04128) |  -|
-| NeurIPS 2023 | [Chatting Makes Perfect: Chat-based Image Retrieval](https://arxiv.org/abs/2305.20062) |   [Code](https://github.com/levymsn/ChatIR)|
-| ICCV 2023 | [FashionNTM: Multi-turn Fashion Image Retrieval via Cascaded Memory](https://openaccess.thecvf.com/content/ICCV2023/papers/Pal_FashionNTM_Multi-turn_Fashion_Image_Retrieval_via_Cascaded_Memory_ICCV_2023_paper.pdf) | -|
-| MM 2023 | [Conversational Composed Retrieval with Iterative Sequence Refinement](https://dl.acm.org/doi/10.1145/3581783.3611885) | -|
-| MMW 2023 | [Fashion-GPT: Integrating LLMs with Fashion Retrieval System](https://dl.acm.org/doi/10.1145/3607827.3616844) | -|
-| Arxiv 2023 | [VQA4CIR: Boosting Composed Image Retrieval with Visual Question Answering](https://Arxiv.org/pdf/2312.12273) |   [Code](https://github.com/chunmeifeng/VQA4CIR)|
-| Arxiv 2024 | [Leveraging Large Language Models for Multimodal Search](https://arxiv.org/abs/2404.15790) |  -|
-
-
-<!--
-| Publication |  Application |   Paper Title     |   Code/Project                                                 |
+| Dataset | Year |    Paper Title     |   Code/Project                                                 |
 |:----:|:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
-| Arxiv 2023 | Visual Queation Answering  | [VQA4CIR: Boosting Composed Image Retrieval with Visual Question Answering](https://Arxiv.org/pdf/2312.12273) |   [Code](https://github.com/chunmeifeng/VQA4CIR)|
-| Arxiv 2024 | Composed Persion-RID | [Word for Person: Zero-shot Composed Person Retrieval](https://Arxiv.org/pdf/2311.16515) |   [Code](https://github.com/Delong-liu-bupt/Word4Per)|
-| CVPR 2024 | Composed Video Retrieval  | [Composed Video Retrieval via Enriched Context and Discriminative Embeddings](https://Arxiv.org/pdf/2403.16997) |   [Code](https://github.com/OmkarThawakar/composed-video-retrieval)|
-| AAAI 2024 | Composed Video Retrieval  | [CoVR: Learning Composed Video Retrieval from Web Video Captions](https://arxiv.org/abs/2308.14746) |   [Code](https://imagine.enpc.fr/~ventural/covr/)|
-| CVPR 2024 |Composed Video Retrieval  | [Composed Video Retrieval via Enriched Context and Discriminative Embeddings](https://arxiv.org/abs/2403.16997) |   [Code](https://github.com/OmkarThawakar/composed-video-retrieval)|
-| NAACL 2024 | Image-Text Retrieval | [ComCLIP: Training-Free Compositional Image and Text Matching](https://Arxiv.org/abs/2211.13854) |   [Code](https://github.com/eric-ai-lab/ComCLIP)|
-| CVPR 2024 | Sketch-Text Retrieval | [You’ll Never Walk Alone: A Sketch and Text Duet for Fine-Grained Image Retrieval](https://Arxiv.org/abs/2211.13854) |   [Code](https://github.com/eric-ai-lab/ComCLIP)|
--->
+| Multi-turn FashionIQ | 2021 | [Conversational Fashion Image Retrieval via Multiturn Natural Language Feedback](https://arxiv.org/abs/2106.04128) |   -|
+
+
 
 
 
