@@ -354,6 +354,9 @@ This leads to higher customer satisfaction and greater user engagement. For reta
 
 
  ### (2) Composed Natural Image Retrieval
+
+Traditional image retrieval systems typically rely on either visual or textual inputs alone. However, single-modality approaches are limited in their ability to represent complex queries involving multiple attributes or concepts. Composed Natural Image Retrieval (CNIR) addresses this limitation by integrating both textual descriptions and image content, enabling systems to better understand abstract and nuanced user requirements. For example, users can upload an image of a favorite landscape along with a description such as “same location but in Autumn,” and the CNIR system will analyze both modalities to retrieve semantically relevant images. By enabling more accurate and personalized search experiences, CNIR significantly improves efficiency and user satisfaction. It also opens new opportunities for innovative services and the broader development of advanced image retrieval technologies.
+ 
 | Dataset | Year |    Paper Title     |   Code/Project                                                 |
 |:----:|:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
 | CSS | 2018 | [Composing Text and Image for Image Retrieval - An Empirical Odyssey](https://openaccess.thecvf.com/content_CVPR_2019/papers/Vo_Composing_Text_and_Image_for_Image_Retrieval_-_an_Empirical_CVPR_2019_paper.pdf) |   [Dataset](https://github.com/google/tirg)|
@@ -369,6 +372,8 @@ This leads to higher customer satisfaction and greater user engagement. For reta
 
  ### (3) Composed Video Retrieval
 
+Composed Video Retrieval (CoVR) enables the retrieval of specific videos from large databases by integrating visual queries with textual modification instructions, allowing for more precise and context-aware searches. This approach overcomes the limitations of traditional content-based video retrieval systems, which rely solely on visual features and often fail to capture user intent or nuanced context. The primary objective of CoVR is to improve search accuracy by leveraging multi-modal inputs. CoVR holds strong application potential across multiple domains, including online video platforms, live event discovery, and sports video retrieval.  On video platforms, it supports advanced content recommendation and management systems by identifying and suggesting videos that better align with user preferences and interests.
+
  
 | Dataset | Year |    Paper Title     |   Code/Project                                                 |
 |:----:|:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
@@ -382,6 +387,9 @@ This leads to higher customer satisfaction and greater user engagement. For reta
 
 
  ### (4) Composed Remote Sensing Image Retrieval
+
+Composed Remote Sensing Image Retrieval (CRSIR) enables users to perform more precise and expressive searches by combining both visual and textual inputs. Instead of relying on a single modality, users can submit a reference image together with a textual description that specifies desired geographic features, environmental conditions, or temporal information. This multi-modal approach enhances the system’s ability to interpret complex queries, leading to more accurate and context-aware retrieval results.
+ 
 | Dataset | Year |    Paper Title     |   Code/Project                                                 |
 |:----:|:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
 | PATTERNCOM | 2024 | [Composed Image Retrieval for Remote Sensing](https://arxiv.org/abs/2405.15587) |   [Dataset](https://github.com/billpsomas/rscir)|
@@ -392,6 +400,9 @@ This leads to higher customer satisfaction and greater user engagement. For reta
 
 
  ### (5) Composed Person Retrieval
+
+Composed Person Retrieval (CPR) represents an innovative approach to identifying specific individuals by leveraging both visual and textual information. Traditional methods, such as Image-based Person Retrieval (IPR) and Text-based Person Retrieval (TPR) , often fall short in effectively utilizing both types of data, leading to a loss in accuracy. CPR aims to address this limitation by simultaneously employing image and text queries to enhance the retrieval process. This dual-modality approach not only increases the descriptive power of the query but also refines the relevance of search results, providing more accurate identification of target individuals. CPR is particularly useful in social services and public security, where precise person identification is crucial.
+ 
 | Dataset | Year |    Paper Title     |   Code/Project                                                 |
 |:----:|:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
 | SynCPR, ITCPR | 2024 | [Automatic Synthetic Data and Fine-grained Adaptive Feature Alignment for Composed Person Retrieva](https://arxiv.org/abs/2311.16515) |   [Dataset](https://github.com/Delong-liu-bupt/Composed_Person_Retrieval)|
@@ -399,6 +410,9 @@ This leads to higher customer satisfaction and greater user engagement. For reta
 
 
  ### (6) Composed Sketch-based Image Retrieval
+
+Composed Sketch-Text Image Retrieval aims to improve the accuracy and relevance of image retrieval by integrating sketch-based and textual inputs. This approach leverages sketches to capture object shapes and structures, while textual descriptions provide complementary details such as color, material, and texture. By combining coarse structural information with fine-grained attributes, it enables more expressive and flexible querying, especially useful when users lack a specific reference image.
+ 
 | Dataset | Year |    Paper Title     |   Code/Project                                                 |
 |:----:|:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
 | ShoeV2, ChairV2 | 2016 | [Sketch Me That Shoe](https://ieeexplore.ieee.org/document/7780462) |   -|
@@ -410,6 +424,10 @@ This leads to higher customer satisfaction and greater user engagement. For reta
 
 
  ### (7) Interactive/Conversational Retrieval
+
+Interactive/Conversational Retrieval (ICR) represents an advanced approach to image retrieval that leverages natural language interactions between users and systems to refine search outcomes progressively. Unlike traditional methods relying solely on images or predefined textual attributes, ICR integrates user feedback through conversational interfaces, enhancing the accuracy and relevance of search results. This method enables users to provide iterative feedback in natural language, refining queries dynamically until they locate the desired image or item. The primary objective of ICR is to facilitate more intuitive, precise, and personalized searches by incorporating both visual and semantic information effectively. 
+ICR has significant applications across various domains, including e-commerce, fashion, and social media.
+ 
 | Dataset | Year |    Paper Title     |   Code/Project                                                 |
 |:----:|:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
 | Multi-turn FashionIQ | 2021 | [Conversational Fashion Image Retrieval via Multiturn Natural Language Feedback](https://arxiv.org/abs/2106.04128) |   -|
