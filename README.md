@@ -307,7 +307,7 @@ Although zero-shot combined multimodal retrieval does not rely on labeled data, 
 | CVPR 2022 | [Composed Image Retrieval with Text Feedback via Multi-grained Uncertainty Regularization](https://arxiv.org/abs/2211.07394) |   -|
 | ICCV 2023 | [Zero-shot composed image retrieval with textual inversion](https://openaccess.thecvf.com/content/ICCV2023/papers/Baldrati_Zero-Shot_Composed_Image_Retrieval_with_Textual_Inversion_ICCV_2023_paper.pdf) |   [Code](https://github.com/miccunifi/SEARLE)|
 | Arxiv 2022 | [Training and challenging models for text-guided fashion image retrieval](https://Arxiv.org/pdf/2204.11004) |   [Code](https://github.com/yahoo/maaf)|
-
+| CVPR 2025 | [Composed Image Retrieval with Text Feedback via Multi-grained Uncertainty Regularization](https://openaccess.thecvf.com/content/CVPR2025/html/Li_Learning_with_Noisy_Triplet_Correspondence_for_Composed_Image_Retrieval_CVPR_2025_paper.html) |   -|
 
 
 ## Datasets
