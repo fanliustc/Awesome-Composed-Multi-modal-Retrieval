@@ -360,7 +360,7 @@ Specific domain (fashion, shoes, 3D scenes, etc.)
 Research in CMR has vast application potential. 
 It can be broadly categorized based on application scenarios and image domain differences, including domains as fashion and e-commerce images, natural images, videos, remote sensing images, person images, sketch images, and interactive conversation. The specific application can be personalized product shopping, media search, event discovery, environmental monitoring, law enforcement, customer service bots, and so on. In summary, CMR represents a paradigm shift in search systems by integrating visual and textual modalities. These systems enable fine-grained, context-aware, and user-centric searches across diverse domains, offering significant improvements in both retrieval accuracy and user satisfaction.
 
-
+![figure2](https://github.com/fanliustc/Awesome-Composed-Multi-modal-Retrieval/blob/main/images/figure1.png)
  ### (1,2) Composed Fashion Image Retrieval and Composed Natural Image Retrieval
 Since most of the existing methods in CMR field involve these two applications, they are not listed here. Please refer to Tables 1-7 in the survey for details.
 
