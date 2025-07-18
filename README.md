@@ -153,7 +153,6 @@ Although supervised training relying on these carefully labeled data often offer
 | MM 2021 | [Cross-Modal Joint Prediction and Alignment for Composed Query Image Retrieval](https://dl.acm.org/doi/10.1145/3474085.3475483) |   -|
 | ECCV 2020 | [Learning joint visual semantic matching embeddings for language-guided retrieval](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123670137.pdf) |   -|
 | CVPR 2020 | [Image search with text feedback by visiolinguistic attention learning](https://openaccess.thecvf.com/content_CVPR_2020/papers/Chen_Image_Search_With_Text_Feedback_by_Visiolinguistic_Attention_Learning_CVPR_2020_paper.pdf) |   [Code](https://github.com/yanbeic/VAL)|
-Design of Non-explicit Combiner Architecture
 | IEEE TIP 2024 | [Multimodal Composition Example Mining for Composed Query Image Retrieval](https://ieeexplore.ieee.org/document/10418785) |   -|
 | ACM MM 2023 | [Target-Guided Composed Image Retrieval](https://Arxiv.org/pdf/2309.01366) |   -|
 | ACL 2024 | [VISTA: Visualized Text Embedding For Universal Multi-Modal Retrieval](https://aclanthology.org/2024.acl-long.175/) |  [Code](https://github.com/JUNJIE99/VISTA_Evaluation_FineTuning)|
