@@ -296,7 +296,7 @@ Although zero-shot combined multimodal retrieval does not rely on labeled data, 
 | AI 2023 | [CLIP-based Composed Image Retrieval with Comprehensive Fusion and Data Augmentation](https://dl.acm.org/doi/10.1007/978-981-99-8388-9_16) |   -|
 | Arxiv 2024 | [Pseudo Triplet Guided Few-shot Composed Image Retrieval](https://arxiv.org/abs/2407.06001) |  -|
 | AAAI 2024 | [Data Roaming and Quality Assessment for Composed Image Retrieval](https://ojs.aaai.org/index.php/AAAI/article/view/28081) |   [Code](https://github.com/levymsn/LaSCo)|
-| Arxiv 2024 | Composed Persion-RID | [Automatic Synthetic Data and Fine-grained Adaptive Feature Alignment for Composed Person Retrieval](https://arxiv.org/abs/2311.16515) |   [Code](https://github.com/Delong-liu-bupt/Composed_Person_Retrieval)|
+| Arxiv 2024 | [Automatic Synthetic Data and Fine-grained Adaptive Feature Alignment for Composed Person Retrieval](https://arxiv.org/abs/2311.16515) |   [Code](https://github.com/Delong-liu-bupt/Composed_Person_Retrieval)|
 
 
 
